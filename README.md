@@ -1,30 +1,139 @@
-# Doctor appointment system
+Features
+✅ Patient Dashboard
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Displays all appointments in three categories:
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/rakshitsharma2s-projects/v0-doctor-appointment-system)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/tJIGMzlqoh8)
+Scheduled
 
-## Overview
+Completed
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Cancelled
 
-## Deployment
+Clean and intuitive UI for easy navigation
 
-Your project is live at:
+✅ Appointment Booking
 
-**[https://vercel.com/rakshitsharma2s-projects/v0-doctor-appointment-system](https://vercel.com/rakshitsharma2s-projects/v0-doctor-appointment-system)**
+Select doctor, specialization, date, and time
 
-## Build your app
+Real-time validation to avoid double booking
 
-Continue building your app on:
+✅ Reschedule & Cancel
 
-**[https://v0.app/chat/tJIGMzlqoh8](https://v0.app/chat/tJIGMzlqoh8)**
+Modify an existing appointment
 
-## How It Works
+Cancel a booking instantly
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+UI updates dynamically
+
+✅ Authentication (Optional / Based on Backend)
+
+Secure route access
+
+Only logged-in patients can view or manage appointments
+
+✅ Responsive UI
+
+Mobile-friendly
+
+Professional, modern design
+
+🛠️ Tech Stack
+Frontend
+
+HTML5
+
+CSS3
+
+JavaScript
+
+(Optional: React / Tailwind depending on your actual code)
+
+Backend
+
+Node.js
+
+Express.js
+
+REST APIs for appointment management
+
+Database
+
+MongoDB (via Mongoose)
+
+Appointment, Doctor, and Patient models
+
+Deployment
+
+Hosted on Vercel
+
+Environment variables for secure database connection
+
+🔗 API Endpoints (Example Structure)
+Method	Endpoint	Description
+GET	/patient/appointments	Get all patient appointments
+POST	/appointments	Book a new appointment
+PUT	/appointments/:id	Reschedule an appointment
+DELETE	/appointments/:id	Cancel an appointment
+📂 Project Structure
+/project-root
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── frontend/
+│   ├── pages/
+│   ├── styles/
+│   └── scripts/
+│
+├── package.json
+└── README.md
+
+
+(Modify according to your actual structure)
+
+📸 Screenshots
+
+Add screenshots of:
+
+Appointment Dashboard
+
+Booking Page
+
+Reschedule Modal
+
+Cancel Confirmation
+
+🧠 What I Learned
+
+This project helped me strengthen:
+
+Full-stack development
+
+REST API design
+
+CRUD operations
+
+Database schema modeling
+
+Authentication & authorization flow
+
+UI/UX best practices
+
+Deployment on Vercel
+
+📈 Future Improvements
+
+Doctor login panel
+
+Real-time appointment availability
+
+SMS/Email reminders
+
+Payment gateway integration
+
+Admin dashboard
+
+Prescription upload & medical history section
